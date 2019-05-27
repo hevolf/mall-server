@@ -1,0 +1,16 @@
+dfs:
+  url: 47.105.178.11:8181
+
+wx:
+  appId: xxxxxxxx
+  mchId: xxxxxxxx
+  key: xxxxxxxx
+  certPath:
+  notify_url: http://thesunbig.imwork.net/wx/notify
+  wap_url: https://pay.qq.com
+  spbill_create_ip: 127.0.0.1
+
+zookeeper:
+  url: zookeeper://47.105.178.11:2181 #114.115.171.119
+
+
