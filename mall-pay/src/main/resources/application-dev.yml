@@ -1,5 +1,5 @@
 dfs:
-  url: 47.105.178.11:8181
+  url: 192.168.68.10:8181
 
 wx:
   appId: xxxxxxxx
@@ -11,6 +11,6 @@ wx:
   spbill_create_ip: 127.0.0.1
 
 zookeeper:
-  url: zookeeper://47.105.178.11:2181 #114.115.171.119
+  url: zookeeper://192.168.68.10:2181 #114.115.171.119
 
 

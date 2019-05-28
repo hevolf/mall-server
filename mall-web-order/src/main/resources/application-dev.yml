@@ -1,5 +1,5 @@
 dfs:
-  url: 47.105.178.11:8181
+  url: 192.168.68.10:8181
 fdfs:
     connectTimeout: 600
     soTimeout: 1500
@@ -7,19 +7,19 @@ fdfs:
         height: 150
         width: 150
     trackerList:
-    - 47.105.178.11:12050
+    - 192.168.68.10:12050
 
 zookeeper:
-  url: zookeeper://47.105.178.11:2181
+  url: zookeeper://192.168.68.10:2181
 spring:
   redis:
-    host: 47.105.178.11
+    host: 192.168.68.10
     port: 6379
     password: 123456
   jmx:
     enabled: false
   rabbitmq:
-    host: 47.105.178.11
+    host: 192.168.68.10
     port: 5672
     username: admin
     password: admin

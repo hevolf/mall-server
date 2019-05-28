@@ -1,5 +1,5 @@
 dfs:
-  url: 47.105.178.11:8181
+  url: 192.168.68.10:8181
 fdfs:
     connectTimeout: 600
     soTimeout: 1500
@@ -7,7 +7,7 @@ fdfs:
         height: 150
         width: 150
     trackerList:
-    - 47.105.178.11:12050
+    - 192.168.68.10:12050
 c3p0:
   jdbcUrl: jdbc:mysql://192.168.0.128:3307/mall?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false
   user: root
