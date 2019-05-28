@@ -681,7 +681,7 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.4.13</version>
                 <configuration>
-                    <imageName>127.0.0.1:5000/${project.artifactId}</imageName>
+                    <imageName>192.168.68.10:5000/${project.artifactId}</imageName>
                     <baseImage>openjdk:8</baseImage>
                     <entryPoint>["java", "-jar","-Duser.timezone=GMT+8", "/${project.build.finalName}.jar"]</entryPoint>
                     <!--<dockerDirectory>${project.basedir}</dockerDirectory>-->
